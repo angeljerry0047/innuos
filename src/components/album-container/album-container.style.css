@@ -1,0 +1,12 @@
+.album-list-container {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 376px){
+    .album-list-container {
+        padding: 25px 15px;
+    }
+}
